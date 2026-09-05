@@ -1,0 +1,268 @@
+/* =========================================
+   WHOLE APPLICATION BACKGROUND
+   ========================================= */
+
+html,
+body,
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background: linear-gradient(
+        135deg,
+        #000000 0%,
+        #0d0008 45%,
+        #1f0014 75%,
+        #000000 100%
+    ) !important;
+
+    color: white !important;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(
+        135deg,
+        #000000,
+        #16000f,
+        #250019,
+        #000000
+    ) !important;
+}
+
+
+/* =========================================
+   MAIN TITLE
+   ========================================= */
+
+h1 {
+    color: #ff69b4 !important;
+    text-align: center;
+    font-size: 42px !important;
+    font-weight: bold !important;
+}
+
+
+/* =========================================
+   HEADINGS
+   ========================================= */
+
+h2,
+h3 {
+    color: #ff69b4 !important;
+}
+
+
+/* =========================================
+   NORMAL TEXT
+   ========================================= */
+
+p {
+    color: #f5f5f5 !important;
+}
+
+
+/* =========================================
+   INPUT LABELS
+   ========================================= */
+
+label {
+    color: #ffb6d9 !important;
+    font-weight: 600 !important;
+}
+
+
+/* =========================================
+   NUMBER INPUT BOX
+   ========================================= */
+
+[data-testid="stNumberInput"] input {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ff69b4 !important;
+    border-radius: 8px !important;
+}
+
+
+/* Number input +/- buttons */
+[data-testid="stNumberInput"] button {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+/* =========================================
+   SELECT BOX
+   ========================================= */
+
+[data-baseweb="select"] {
+    background-color: white !important;
+    border-radius: 8px !important;
+}
+
+
+/* Select box text */
+[data-baseweb="select"] * {
+    color: black !important;
+}
+
+
+/* Select box border */
+[data-baseweb="select"] > div {
+    border-color: #ff69b4 !important;
+}
+
+
+/* =========================================
+   SLIDERS
+   ========================================= */
+
+[data-testid="stSlider"] {
+    color: #ff69b4 !important;
+}
+
+
+/* Slider labels */
+[data-testid="stSlider"] label {
+    color: #ffb6d9 !important;
+}
+
+
+/* =========================================
+   PREDICT BUTTON
+   ========================================= */
+
+.stButton > button {
+    background: linear-gradient(
+        90deg,
+        #ff1493,
+        #ff69b4
+    ) !important;
+
+    color: white !important;
+
+    border: none !important;
+
+    border-radius: 12px !important;
+
+    padding: 12px 25px !important;
+
+    font-size: 18px !important;
+
+    font-weight: bold !important;
+
+    width: 100% !important;
+
+    transition: 0.3s;
+}
+
+
+/* Button hover */
+.stButton > button:hover {
+    background: linear-gradient(
+        90deg,
+        #ff69b4,
+        #ff1493
+    ) !important;
+
+    color: white !important;
+
+    transform: scale(1.02);
+}
+
+
+/* =========================================
+   SUCCESS / ERROR RESULT
+   ========================================= */
+
+[data-testid="stAlert"] {
+    border-radius: 12px !important;
+}
+
+
+/* =========================================
+   STREAMLIT TOP HEADER
+   ========================================= */
+
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+
+/* Keep toolbar visible */
+[data-testid="stToolbar"] {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+
+/* Header buttons */
+[data-testid="stHeader"] button {
+    color: #ff69b4 !important;
+}
+
+
+/* Header icons */
+[data-testid="stHeader"] svg {
+    fill: #ff69b4 !important;
+    color: #ff69b4 !important;
+}
+
+
+/* =========================================
+   DEPLOY BUTTON
+   ========================================= */
+
+[data-testid="stHeader"] [data-testid="stBaseButton-secondary"] {
+    color: #ff69b4 !important;
+    border-color: #ff69b4 !important;
+    background-color: transparent !important;
+}
+
+
+/* Deploy button hover */
+[data-testid="stHeader"] [data-testid="stBaseButton-secondary"]:hover {
+    background-color: #ff1493 !important;
+    color: white !important;
+}
+
+
+/* =========================================
+   SIDEBAR
+   ========================================= */
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(
+        180deg,
+        #000000,
+        #1a0010
+    ) !important;
+}
+
+
+/* =========================================
+   SCROLLBAR
+   ========================================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #ff1493;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff69b4;
+}
