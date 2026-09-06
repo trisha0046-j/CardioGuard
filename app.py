@@ -1,5 +1,3 @@
-
-
 # Importing Libraries
 import streamlit as st 
  
@@ -7,7 +5,7 @@ import pandas as pd
  
 import joblib 
 # Loading CSS File
-with open("style.css") as f:
+with open("static/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 # Loading the Saved Machine Learning Model
 model=joblib.load("KNN_heart.pkl") 
