@@ -13,15 +13,15 @@ with open("static/style.css") as f:
 
 
 # Loading the Saved Machine Learning Model
-model = joblib.load("KNN_heart .pkl")
+model = joblib.load("KNN_heart.pkl")
 
 
 # Loading the Saved Scaler
-scaler = joblib.load("scaler .pkl")
+scaler = joblib.load("scaler.pkl")
 
 
 # Loading the Expected Columns
-expected_columns = joblib.load("columns .pkl")
+expected_columns = joblib.load("columns.pkl")
 
 
 # Creating the Application Title
